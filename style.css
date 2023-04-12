@@ -1,0 +1,104 @@
+/* Estilo básico para a página */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  /* Estilo para o cabeçalho */
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo para o título da página */
+  h1 {
+    margin: 0;
+  }
+  
+  /* Estilo para o contêiner principal */
+  .main {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+  }
+  
+  /* Estilo para o formulário */
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"], input[type="text"] {
+    border: none;
+    border-radius: 3px;
+    box-shadow: inset 0px 0px 3px 0px rgba(0,0,0,0.2);
+    padding: 10px;
+    width: 100%;
+  }
+  
+  input[type="number"]:focus, input[type="text"]:focus {
+    box-shadow: inset 0px 0px 5px 0px rgba(0,0,0,0.2);
+    outline: none;
+  }
+  
+  .btn-group {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    margin: 5px;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  #detalhe {
+    margin-top: 20px;
+  }
+  
+  #detalhe ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #detalhe ul li {
+    margin-bottom: 10px;
+  }
+  
+  #detalhe ul li span {
+    font-weight: bold;
+  }
+  
+  #descricao {
+    margin-top: 20px;
+  }
+  
+  #cadastrarGroup {
+    text-align: center;
+  }
+  
+  #cadastrarGroup button {
+    background-color: #008CBA;
+  }
+  
+  #cadastrarGroup button:hover {
+    background-color: #006080;
+    transition: all 0.3s ease-in-out;
+  }
+  
